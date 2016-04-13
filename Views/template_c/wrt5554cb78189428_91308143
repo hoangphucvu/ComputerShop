@@ -1,0 +1,1032 @@
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:08
+         compiled from "Views\template\index.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:283235544ff5d3a08c4-63987915%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '5485d3848891c3948bccfd6ce9ddd742ec8ac773' => 
+    array (
+      0 => 'Views\\template\\index.tpl',
+      1 => 1431620251,
+      2 => 'file',
+    ),
+    '0f17e00b44a38dc26cd6bc8ddb61732c8dbac27b' => 
+    array (
+      0 => 'Views\\template\\header.tpl',
+      1 => 1431620246,
+      2 => 'file',
+    ),
+    '636df209ab5f4f4bdbeb882bfc1e8428530142ec' => 
+    array (
+      0 => 'Views\\template\\nav.tpl',
+      1 => 1431620262,
+      2 => 'file',
+    ),
+    '4ee628a5c5abd1b79d4464ebbb1ccb331f94adf2' => 
+    array (
+      0 => 'Views\\template\\top.tpl',
+      1 => 1431620457,
+      2 => 'file',
+    ),
+    'b293c97d0af3ffb0af50485542eadcc9fb245829' => 
+    array (
+      0 => 'Views\\template\\header_pro.tpl',
+      1 => 1431620241,
+      2 => 'file',
+    ),
+    'f7d10d15a61b38a1b90126d10b61e3f409551b80' => 
+    array (
+      0 => 'Views\\template\\style_featured.tpl',
+      1 => 1431620270,
+      2 => 'file',
+    ),
+    '6ef14cfa4c0023b70a2dd8e9cf6399a2a2f800cf' => 
+    array (
+      0 => 'Views\\template\\pro_info.tpl',
+      1 => 1431620267,
+      2 => 'file',
+    ),
+    'd78e2a2fe8d9e3fb240855841faceffb081eb372' => 
+    array (
+      0 => 'Views\\template\\banner_flash.tpl',
+      1 => 1431620228,
+      2 => 'file',
+    ),
+    '5b07418aca3626588aa550e90f6f70a50a442436' => 
+    array (
+      0 => 'Views\\template\\footer.tpl',
+      1 => 1431620235,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '283235544ff5d3a08c4-63987915',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_5544ff5d605c26_79013598',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5544ff5d605c26_79013598')) {function content_5544ff5d605c26_79013598($_smarty_tpl) {?><!DOCTYPE html>
+<html>
+	<head>
+
+		<?php /*  Call merged included template "header.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb74de2464_71152752($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "header.tpl" */?>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row navbar-inverse">
+				<!--nav-->
+				<?php /*  Call merged included template "nav.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("nav.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb75c43346_73951574($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "nav.tpl" */?>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12" id="top">
+					<!--top-->
+					<?php /*  Call merged included template "top.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb76e1a253_76657347($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "top.tpl" */?>
+				</div>
+			</div>
+			<div class="row header_pro">
+				<!--header_pro-->
+				<?php /*  Call merged included template "header_pro.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("header_pro.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb76e39da5_38940805($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "header_pro.tpl" */?>
+			</div>
+
+			<div class="row style_featured">
+				<!--style_featured-->
+				<?php /*  Call merged included template "style_featured.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("style_featured.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb772e1203_46278469($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "style_featured.tpl" */?>
+			</div>
+			<div class="row ">
+				<div class="col-md-12">
+					<div class="col-md-10 pro_info_small_wrap">
+						<!--pro_info-->
+						<?php /*  Call merged included template "pro_info.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("pro_info.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb7754fd73_13673460($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "pro_info.tpl" */?>
+					</div><!--col-md-10-->
+
+					<div class="col-md-2 banner_flash list-group">
+						<!--scroll list-->
+						<?php /*  Call merged included template "banner_flash.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("banner_flash.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb77a95750_84162544($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "banner_flash.tpl" */?>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<div class="more btn">
+						Xem Thêm
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<footer>
+			<!--footer-->
+			<?php /*  Call merged included template "footer.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '283235544ff5d3a08c4-63987915');
+content_5554cb77c72c97_91064298($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); 
+/*  End of included template "footer.tpl" */?>
+		</footer>
+	</body>
+</html><?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:09
+         compiled from "Views\template\header.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb74de2464_71152752')) {function content_5554cb74de2464_71152752($_smarty_tpl) {?><head>
+	<title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+	<meta  charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/font-awesome/css/font-awesome.min.css" />
+
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/js/jquery.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/js/jquery.sticky.js"><?php echo '</script'; ?>
+>
+
+	<?php echo '<script'; ?>
+ type="text/javascript">
+		jQuery(function($) {
+			$('#carousel1').carousel({
+				interval : 2000
+			});
+
+			var clickEvent = false;
+
+			$('#carousel1').on('click', '.nav a', function() {
+				clickEvent = true;
+				$('.nav li').removeClass('active');
+				$(this).parent().addClass('active');
+			}).on('slid.bs.carousel', function(e) {
+				if (!clickEvent) {
+					var count = $('.nav').children().length - 1;
+					var current = $('.nav li.active');
+					current.removeClass('active').next().addClass('active');
+					var id = parseInt(current.data('slide-to'));
+					if (count == id) {
+						$('.nav li').first().addClass('active');
+					}
+				}
+				clickEvent = false;
+			});
+		});
+	<?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+>
+		$(window).load(function() {
+			$("#news").sticky({
+				topSpacing : 10
+			});
+		});
+	<?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+>
+		function submit_search() {
+			if (document.forms["form_search"]["key"].value.length == 0) {
+				alert("Bạn chưa nhập từ khóa tìm kiếm! ");
+				return false;
+			} else {
+				return true;
+			}
+		}
+
+
+		$(".more").click(function() {
+			$(".pro_info_small_wrap").css("height", "auto");
+
+		});
+	<?php echo '</script'; ?>
+>
+</head><?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:09
+         compiled from "Views\template\nav.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb75c43346_73951574')) {function content_5554cb75c43346_73951574($_smarty_tpl) {?><div class="col-md-12">
+	<div class="col-xs-3 col-md-3" id="logo">
+		<img src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/images/icon-php.png" alt="Trang ch?" title="Trang ch?">
+	</div>
+	<div class="col-md-6" id="search_form">
+		<h4><span class="glyphicon glyphicon-phone-alt"></span> Tư vấn miễn phí : 1900 6606 </h4>
+		<form action="search.php" class="input-group" name="form_search"
+		onsubmit="return submit_search();" role="search">
+			<input type="text" class="form-control"
+			placeholder="Tìm kiếm sản phẩm" id="key" name="key">
+			<span
+			class="input-group-btn">
+				<button class="btn btn-danger" type="submit">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button> </span>
+		</form>
+	</div>
+
+	<div id="login">
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+				<a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+			</li>
+			<li>
+				<a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+			</li>
+		</ul>
+		<nav class="navbar navbar-static">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div>
+
+			<div class="collapse navbar-collapse js-navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown dropdown-large">
+						<a href="#" class="dropdown-toggle product_show" data-toggle="dropdown">Product <b class="caret"></b></a>
+
+						<ul class="dropdown-menu dropdown-menu-large row">
+							<?php if (isset($_smarty_tpl->tpl_vars['ds_loai_san_pham_menu']->value)) {?>
+							<?php $_smarty_tpl->tpl_vars['i'] = new Smarty_variable(1, null, 0);?>
+							<?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
+ $_smarty_tpl->tpl_vars['ten_loai_cha'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['ds_loai_san_pham_menu']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['item']->key => $_smarty_tpl->tpl_vars['item']->value) {
+$_smarty_tpl->tpl_vars['item']->_loop = true;
+ $_smarty_tpl->tpl_vars['ten_loai_cha']->value = $_smarty_tpl->tpl_vars['item']->key;
+?>
+							<li class="col-sm-3">
+								<ul>
+									<li class="dropdown-header">
+										<?php echo $_smarty_tpl->tpl_vars['ten_loai_cha']->value;?>
+
+									</li>
+									<?php  $_smarty_tpl->tpl_vars['loai_con'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['loai_con']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['item']->value[1]; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['loai_con']->key => $_smarty_tpl->tpl_vars['loai_con']->value) {
+$_smarty_tpl->tpl_vars['loai_con']->_loop = true;
+?>
+									<li>
+										<a href="#"><?php echo $_smarty_tpl->tpl_vars['loai_con']->value['ten_loai'];?>
+</a>
+									</li>
+									<?php } ?>
+								</ul>
+							</li>
+
+							<?php } ?>
+							<?php }?>
+						</ul>
+
+					</li>
+				</ul>
+			</div><!-- /.nav-collapse -->
+		</nav>
+
+	</div>
+</div>
+<?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:10
+         compiled from "Views\template\top.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb76e1a253_76657347')) {function content_5554cb76e1a253_76657347($_smarty_tpl) {?><div class="col-md-3" id="left_menu">
+	<div class="list-group">
+		<a href="#" class="list-group-item disabled"> Cras justo odio </a>
+		<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+		<a href="#" class="list-group-item">Morbi leo risus</a>
+		<a href="#" class="list-group-item">Porta ac consectetur ac</a>
+		<a href="#" class="list-group-item">Vestibulum at eros</a>
+	</div>
+</div>
+<div class="col-md-6" id="slider">
+	<div id="carousel1" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<img alt="" src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/images/slider_1.jpg">
+			</div>
+			<div class="item">
+				<img alt="" src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/images/slider_2.jpg">
+				<!-- <div class="carousel-caption">
+				<div class="col-lg-12 text-center v-center" style="font-size: 39pt;">
+				<a href="#"><span class="avatar"><i class="fa fa-google-plus"></i></span></a>
+				<a href="#"><span class="avatar"><i class="fa fa-linkedin"></i></span></a>
+				<a href="#"><span class="avatar"><i class="fa fa-facebook"></i></span></a>
+				<a href="#"><span class="avatar"><i class="fa fa-github"></i></span></a>
+				</div>
+				</div> -->
+			</div>
+			<div class="item">
+				<img alt="" src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/images/slider_3.jpg">
+			</div>
+		</div>
+		<ul class="nav nav-pills nav-justified">
+			<li data-target="#carousel1" data-slide-to="0" class="active">
+				<a href="#">Sản Phẩm Mới<small>Những mặt hàng mới
+					nhất hiện nay</small></a>
+			</li>
+			<li data-target="#carousel1" data-slide-to="1">
+				<a href="#">Sản
+				Phẩm Hot<small>Top các sản phẩm bán chạy hiện nay</small> </a>
+			</li>
+			<li data-target="#carousel1" data-slide-to="2">
+				<a href="#">Giảm
+				Giá<small>Xả hàng,giảm giá các mặt hàng tồn kho</small> </a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="col-md-3 hidden-xs" id="banner_flash">
+	<img src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/php-banner.jpg" alt="" title="">
+</div><?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:10
+         compiled from "Views\template\header_pro.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb76e39da5_38940805')) {function content_5554cb76e39da5_38940805($_smarty_tpl) {?><ol class="breadcrumb">
+	<li class="">
+		Sản Phẩm
+	</li>
+	<li>
+		<a href="#">Top Bán Chạy</a>
+	</li>
+	<div class="pull-right">
+		<a class="btn glyphicon glyphicon-chevron-left"
+		href="#carousel-example" data-slide="prev"></a>
+		<a  class="btn glyphicon glyphicon-chevron-right"
+		href="#carousel-example" data-slide="next"></a>
+	</div>
+</ol>
+
+<div class="row">
+	<div class="row">
+		<div class="col-md-9"></div>
+		<div class="col-md-3">
+			<!-- Controls -->
+
+		</div>
+	</div>
+	<div id="carousel-example" class="carousel slide"
+	data-ride="carousel" >
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" >
+			<div class="item active">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Product A</h5>
+										<h5 class="price-text-color">$7.99</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_001.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Product B</h5>
+										<h5 class="price-text-color">$9.99</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_002.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Product C</h5>
+										<h5 class="price-text-color">$7.58</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_003.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Another product</h5>
+										<h5 class="price-text-color">$3.75</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_001.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Product</h5>
+										<h5 class="price-text-color">$7.17</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_001.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Product</h5>
+										<h5 class="price-text-color">$19.99</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_002.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Product</h5>
+										<h5 class="price-text-color">$1.99</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_003.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="col-item">
+							<div class="info">
+								<div class="row">
+									<div class="price col-md-6">
+										<h5>Product</h5>
+										<h5 class="price-text-color">$1.09</h5>
+									</div>
+									<div class="rating hidden-sm col-md-6">
+										<i class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i><i
+										class="price-text-color fa fa-star"></i>
+									</div>
+								</div>
+							</div>
+
+							<div class="photo">
+								<img
+								src="http://www.prepbootstrap.com/Content/images/template/productslider/product_001.jpg"
+								class="img-responsive" alt="a" />
+							</div>
+							<div class="info">
+								<div class="separator clear-left">
+									<p class="btn-add">
+										<i class="fa fa-shopping-cart"></i><a href="#"
+										class="hidden-sm">Add to cart</a>
+									</p>
+									<p class="btn-details">
+										<i class="fa fa-list"></i><a href="#" class="hidden-sm">More
+										details</a>
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:11
+         compiled from "Views\template\style_featured.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb772e1203_46278469')) {function content_5554cb772e1203_46278469($_smarty_tpl) {?><ol class="breadcrumb">
+	<li class="">
+		Sản Phẩm
+	</li>
+	<li>
+		<a href="#">Top Bán Chạy</a>
+	</li>
+</ol>
+<div class="col-md-2 pro_info">
+	<div>
+		<img
+		src="http://www.prepbootstrap.com/Content/images/template/featureditems/product_001.jpg"
+		alt="" class="img-rounded img-thumbnail" />
+		<h2>Item A</h2>
+		<p style="text-align: left;">
+			<span class="fa fa-info-circle"></span> A quality item for
+			purchase. Features state of the art technology
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-bank "></span> 0% Financing available
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-calendar "></span> 12 months full warranty
+		</p>
+		<a href="#" class="btn btn-success" title="More">more »</a>
+	</div>
+</div>
+<div class="col-md-2 pro_info">
+	<div>
+		<img
+		src="http://www.prepbootstrap.com/Content/images/template/featureditems/product_001.jpg"
+		alt="" class="img-rounded img-thumbnail" />
+		<h2>Item A</h2>
+		<p style="text-align: left;">
+			<span class="fa fa-info-circle"></span> A quality item for
+			purchase. Features state of the art technology
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-bank "></span> 0% Financing available
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-calendar "></span> 12 months full warranty
+		</p>
+		<a href="#" class="btn btn-success" title="More">more »</a>
+	</div>
+</div>
+<div class="col-md-2 pro_info ">
+	<div>
+		<img
+		src="http://www.prepbootstrap.com/Content/images/template/featureditems/product_001.jpg"
+		alt="" class="img-rounded img-thumbnail" />
+		<h2>Item A</h2>
+		<p style="text-align: left;">
+			<span class="fa fa-info-circle"></span> A quality item for
+			purchase. Features state of the art technology
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-bank "></span> 0% Financing available
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-calendar "></span> 12 months full warranty
+		</p>
+		<a href="#" class="btn btn-success" title="More">more »</a>
+	</div>
+</div>
+<div class="col-md-2 pro_info">
+	<div>
+		<img
+		src="http://www.prepbootstrap.com/Content/images/template/featureditems/product_001.jpg"
+		alt="" class="img-rounded img-thumbnail" />
+		<h2>Item A</h2>
+		<p style="text-align: left;">
+			<span class="fa fa-info-circle"></span> A quality item for
+			purchase. Features state of the art technology
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-bank "></span> 0% Financing available
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-calendar "></span> 12 months full warranty
+		</p>
+		<a href="#" class="btn btn-success" title="More">more »</a>
+	</div>
+</div>
+<div class="col-md-2 pro_info">
+	<div>
+		<img
+		src="http://www.prepbootstrap.com/Content/images/template/featureditems/product_001.jpg"
+		alt="" class="img-rounded img-thumbnail" />
+		<h2>Item A</h2>
+		<p style="text-align: left;">
+			<span class="fa fa-info-circle"></span> A quality item for
+			purchase. Features state of the art technology
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-bank "></span> 0% Financing available
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-calendar "></span> 12 months full warranty
+		</p>
+		<a href="#" class="btn btn-success" title="More">more »</a>
+	</div>
+</div>
+<div class="col-md-2 pro_info">
+	<div>
+		<img
+		src="http://www.prepbootstrap.com/Content/images/template/featureditems/product_001.jpg"
+		alt="" class="img-rounded img-thumbnail" />
+		<h2>Item A</h2>
+		<p style="text-align: left;">
+			<span class="fa fa-info-circle"></span> A quality item for
+			purchase. Features state of the art technology
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-bank "></span> 0% Financing available
+		</p>
+		<p style="text-align: left;">
+			<span class="fa fa-calendar "></span> 12 months full warranty
+		</p>
+		<a href="#" class="btn btn-success" title="More">more »</a>
+	</div>
+</div><?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:11
+         compiled from "Views\template\pro_info.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb7754fd73_13673460')) {function content_5554cb7754fd73_13673460($_smarty_tpl) {?><?php if (isset($_smarty_tpl->tpl_vars['dssp_index']->value)) {?>
+<?php  $_smarty_tpl->tpl_vars['sp'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['sp']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['dssp_index']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['sp']->key => $_smarty_tpl->tpl_vars['sp']->value) {
+$_smarty_tpl->tpl_vars['sp']->_loop = true;
+?>
+<div class="col-md-2 pro_info_small">
+	<div class="cuadro_intro_hover " style="background-color:#cccccc;">
+		<p >
+			<img src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/hinh_san_pham/<?php echo $_smarty_tpl->tpl_vars['sp']->value['hinh'];?>
+" class="img-responsive" alt="<?php echo $_smarty_tpl->tpl_vars['sp']->value['ten_san_pham'];?>
+">
+		</p>
+		<div class="caption">
+			<div class="blur"></div>
+			<div class="caption-text">
+				<h3 style="border-top:2px solid white; border-bottom:2px solid white; padding:10px;"><?php echo number_format($_smarty_tpl->tpl_vars['sp']->value['don_gia']);?>
+</h3>
+				<p>
+					<?php echo $_smarty_tpl->tpl_vars['sp']->value['ten_san_pham'];?>
+
+				</p>
+				<a class=" btn btn-default" href="#"><span class="glyphicon glyphicon-plus"> More</span></a>
+			</div>
+		</div>
+	</div>
+
+</div>
+<?php } ?>
+<?php }?>
+
+<?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:11
+         compiled from "Views\template\banner_flash.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb77a95750_84162544')) {function content_5554cb77a95750_84162544($_smarty_tpl) {?><img src="<?php echo $_smarty_tpl->tpl_vars['path']->value;?>
+/Public/images/flash.gif" alt="" title="" class="hidden-xs visible-lg">
+<div class="list-group hidden-xs visible-lg" id="news" >
+	<a href="#" class="list-group-item active"> Cras justo odio </a>
+	<a href="#" class="list-group-item">Dapibus ac facilisis inDapibus ac facilisis inDapibus ac facilisis inDapibus ac facilisis in</a>
+	<a href="#" class="list-group-item">Morbi leo risus</a>
+	<a href="#" class="list-group-item">Porta ac consectetur ac</a>
+	<a href="#" class="list-group-item">Vestibulum at eros</a>
+</div><?php }} ?>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-14 18:21:11
+         compiled from "Views\template\footer.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_5554cb77c72c97_91064298')) {function content_5554cb77c72c97_91064298($_smarty_tpl) {?><div class="footer" id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+				<h3> Lorem Ipsum </h3>
+				<ul>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+				<h3> Lorem Ipsum </h3>
+				<ul>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+				<h3> Lorem Ipsum </h3>
+				<ul>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+				<h3> Lorem Ipsum </h3>
+				<ul>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+					<li>
+						<a href="#"> Lorem Ipsum </a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+				<h3> Lorem Ipsum </h3>
+				<ul>
+					<li>
+						<div class="input-append newsletter-box text-center">
+							<input type="text" class="full text-center" placeholder="Email ">
+							<button class="btn  bg-gray" type="button">
+								Lorem ipsum <i class="fa fa-long-arrow-right"> </i>
+							</button>
+						</div>
+					</li>
+				</ul>
+				<ul class="social">
+					<li>
+						<a href="#"> <i class=" fa fa-facebook">   </i> </a>
+					</li>
+					<li>
+						<a href="#"> <i class="fa fa-twitter">   </i> </a>
+					</li>
+					<li>
+						<a href="#"> <i class="fa fa-google-plus">   </i> </a>
+					</li>
+					<li>
+						<a href="#"> <i class="fa fa-pinterest">   </i> </a>
+					</li>
+					<li>
+						<a href="#"> <i class="fa fa-youtube">   </i> </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--/.row-->
+	</div>
+	<!--/.container-->
+</div>
+<!--/.footer-->
+
+<div class="footer-bottom">
+	<div class="container">
+		<p class="pull-left">
+			Copyright © Ngô Hùng Phúc. All right reserved.
+		</p>
+		<div class="pull-right">
+			<ul class="nav nav-pills payments">
+				<li>
+					<i class="fa fa-cc-visa"></i>
+				</li>
+				<li>
+					<i class="fa fa-cc-mastercard"></i>
+				</li>
+				<li>
+					<i class="fa fa-cc-amex"></i>
+				</li>
+				<li>
+					<i class="fa fa-cc-paypal"></i>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--/.footer-bottom-->
+<?php }} ?>
